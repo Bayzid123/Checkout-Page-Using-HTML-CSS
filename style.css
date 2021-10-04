@@ -118,6 +118,7 @@ header .right-container span {
     display: flex;
     justify-content: center;
     padding: 5px;
+    padding-left: 18px;
 }
 .box .bottom-area {
     border: 1px solid #FFE4D9;
@@ -291,6 +292,16 @@ input[type="text"] {
     border-bottom-right-radius: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.search-area ::placeholder{
+    width: 237px;
+    height: 25px;
+    left: 735px;
+    top: 134px;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 10px;
+    color: #E0E0E0;
 }
 .search-area a {
     width: 60px;
