@@ -1,0 +1,403 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+header {
+    background: #FFE2D6;
+    display: block;
+    overflow: hidden;
+    color: #FF4E00;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+header .left-container {
+    width: 50%;
+    float: left;
+}
+header .right-container {
+    width: 50%;
+    float: right;
+}
+header .right {
+    width: auto;
+    float: right;
+    border-right: 3px solid;
+}
+header .left {
+    width: auto;
+    float: right;
+    
+}
+header .right-container span {
+    padding: 0 10px;
+
+}
+
+
+/* body left area css*/
+
+ .left-body {
+    width: 20%;
+    float: left;
+    padding: 2% 10px 2% 1%;
+    margin-right: 20px;
+    box-shadow: 7px 6px 26px -20px #00000040;
+}
+
+.left-body .top-area .left-area {
+    width: auto;
+    float: left;
+    padding-right: 20px;
+}
+.left-body .top-area {
+    display: flex;
+    align-items: center;
+}
+
+.left-body .food-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 0 0;
+    justify-content: space-between;
+}
+
+
+
+/* middle section  */
+.middle-body {
+    width: 76%;
+    float: left;
+    padding-top:2%;
+    padding-bottom: 4%;
+}
+.middle-body .left{
+    width: 50%;
+    float: left;
+}
+.middle-body h1{
+    font-size: 24px;
+}
+.titlebar {
+    background: #EFEFEF;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+.titlebar span {
+    font-size: 14px;
+
+}
+.titlebar .right {
+    justify-content: flex-end;
+    
+}
+.titlebar .left {
+    justify-content: flex-start;
+    width: 100%;
+}
+.titlebar .right span{
+    color:#E96125;
+}
+.titlebar img {
+    width: 9px;
+}
+.tab-body p{
+    font-size: 12px;
+}
+.box .top-area {
+    border: 1px solid #c7c7c7;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.box .bottom-area {
+    border: 1px solid #FFE4D9;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    background: #FFE4D9;
+    justify-content: center;
+    padding: 5px;
+}
+.deliveryinfo {
+    background-color: #FCFCFC;
+    margin-bottom: 40px;
+}
+.tab-body {
+    padding: 20px;
+}
+.dtimeinfo {
+    display: block;
+    overflow: hidden;
+    background: #FCFCFC;
+}
+.checkoutButton {
+    display: flex;
+    justify-content: center;    
+    margin-top: 60px;
+
+}
+.checkoutButton button {
+    background: #E96125;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: white;
+    border:none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.box{
+    float: left;
+    margin: 5%;
+}
+
+/* my cart css */
+.middle-body .right {
+    width: 40%;
+    float: right;
+    box-shadow: -4px 4px 6px 0px #0000000D;
+    border: 1px solid #dbdbdb;
+}
+.middle-body .titlebar .right {
+    width: auto;
+    float: right;
+    box-shadow: none;
+    border: none;
+}
+.middle-body .right .top-area {
+    background: #E96125;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.middle-body .right .top-area .item-number {
+    
+    font-weight: 400;
+    font-size: 16px;
+}
+.cart-item-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+
+
+
+.cart-item-list .middle-container p{
+    text-align: center;
+    font-size: 12px;
+}
+.cart-item-list .middle-container span.price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cart-item-list .value-area .sale-price{
+    font-weight:bold;
+    font-size:16px;
+
+} 
+.cart-item-list .value-area .regular-price{
+    font-weight:regular;
+    font-size:14px;
+    text-decoration: line-through;
+    color: #A5A5A5;
+    
+} 
+
+.any-offer-container {
+    background: #EEEEEE;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.any-offer-container .icon-area {
+    padding-right: 20px;
+}
+
+.total-price p {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.middle-body .last-bottom-part {
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #dbdbdb;
+    color: #949292;
+    font-size: 12px;
+}
+.deliveryinfolast {
+    padding: 10px 0;
+    display: flex;
+}
+.deliveryinfolast .image-section {
+    padding-right: 10px;
+}
+
+
+.middle-body ul {
+    list-style: none;
+    padding-inline-start: 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.middle-body li {
+    float: left;
+    padding-right: 20px;
+}
+.menu-area{
+    display: block;
+    overflow: hidden;
+}
+.active{
+    color: #FF4E00;
+}
+input[type="text"] {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid red;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 87%;
+}
+.middle-body .middle-left {
+    width: 70%;
+    float: left;
+}
+.search-area {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(255,78,0,1) 35%);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.search-area a {
+    width: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-right {
+    width: 25%;
+    float: right;
+    color:#FF4E00;
+}
+.middle-right img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.middle-right .bottom{
+    display: flex;
+    font-size: 12px;
+    padding-top: 30px;
+
+
+}
+.middle-right .bottom img{
+    height: 20px;
+}
+.middle-right .bottom-left {
+    padding-right: 20px;
+}
+.cart-container {
+    position: relative;
+}
+p.itemcartnumber {
+    position: absolute;
+    top: 0;
+}
+p.itemcartnumber {
+    position: absolute;
+    right: 12px;
+    background: #FF4E00;
+    color: white;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    border-radius: 50%;
+    top: -17px;
+}
+.food-container .cat-name-area {
+    width: 60%;
+}
+@media screen and (max-width: 680px) {
+    
+    .left-body {
+        width: 100%;
+        float: none;
+        padding: 2% 10px 2% 1%;
+        margin-right: 0;
+        box-shadow: none;
+    }
+    .middle-body {
+        width: 100%;
+        float: none;
+        padding-top: 2%;
+        padding-bottom: 4%;
+        display: block;
+        overflow: hidden;
+    }
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .middle-body .left {
+        width: 100%;
+        float: none;
+    }
+    .middle-body .right {
+        width: 100%;
+        float: none;
+        box-shadow: -4px 4px 6px 0px #0000000D;
+        border: 1px solid #dbdbdb;
+        margin-top: 6%;
+    }
+    .middle-body .middle-left {
+        width: 100%;
+        float: left;
+    }
+    .middle-right {
+        width: 100%;
+        float: none;
+        display: flex;
+        color: #FF4E00;
+        overflow: hidden;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .cart-container {
+        position: relative;
+        width: 52px;
+    }
+    .middle-right .bottom-left {
+        padding-right: 20px;
+        width: 50%;
+    }
+    .menu-area {
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+    }
+  }
